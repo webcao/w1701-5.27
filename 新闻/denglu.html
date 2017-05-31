@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/denglu.css">
+</head>
+<body>
+<div class="denglubox">
+    <!--<img src="img/denglu.jpg" alt="">-->
+    <div class="denglu">
+        <h4> 用户登录 </h4>
+           <input type="text" class="zhanghao" placeholder="手机号码">
+           <input type="password" class="mima" placeholder="密码">
+        <a href="javascript:;" id="submit">登&nbsp;录</a>
+        <a href="javascript:;" class="zhuce">立即注册</a>
+    </div>
+    <div class="zhucebox">
+        <h4> 新用户注册 </h4>
+        <input type="text" class="zhanghao1" placeholder="请输入手机号码">
+        <input type="password" class="mima1" placeholder="请输入密码">
+        <input type="password" class="mima2" placeholder="请确认密码">
+        <a href="javascript:;" class="zhucebtn">立即注册</a>
+        <a href="javascript:;" class="fh">返回登录</a>
+    </div>
+</div>
+</body>
+<!--<script src="js/animate.js"></script>-->
+<script>
+//    const liji=document.querySelector(".zhuce");
+//    const fh=document.querySelector(".fh");
+//    const denglu=document.querySelector(".denglu");
+//    const zhucebox=document.querySelector(".zhucebox");
+//    liji.onclick= zhuce;
+//    function zhuce(){
+//        animate(zhucebox,{opacity:1,marginRight:-500},500)
+//        zhucebox.style.display="block";
+//        denglu.style.opacity=0;
+//        denglu.style.marginRight="-100px";
+//        denglu.style.display="none";
+//    }
+//    fh.onclick=dengluz;
+//        function dengluz(){
+//        animate(denglu,{opacity:1,marginRight:-500},500)
+//        denglu.style.display="block";
+//        zhucebox.style.opacity=0;
+//        zhucebox.style.marginRight="-100px";
+//        zhucebox.style.display="none";
+//    }
+
+    // const submit=document.querySelector("#submit");
+    // const zhanghao=document.querySelector(".zhanghao");
+    // const mima=document.querySelector(".mima")
+    // const zhanghao1=document.querySelector(".zhanghao1");
+    // const mima1=document.querySelector(".mima1");
+    // const mima2=document.querySelector(".mima2");
+    // const zhucebtn=document.querySelector(".zhucebtn");
+    // var reg=/^[0-9]{11}||[a-z]{5,11}$/;
+    // var reg1=/^[a-zA-Z]([a-zA-Z]{1,})||([0-9]{1,})$/;
+    // function getData(){
+    //     var data=localStorage.zh?JSON.parse(localStorage.zh):[];
+    //     return data;
+    // }
+    // function setData(data){
+    //     if(data==undefined){
+    //         return;
+    //     }
+    //     localStorage.zh=JSON.stringify(data);
+    // }
+    // zhucebtn.onclick=function(){
+    //     zhanghao.value="";
+    //     mima.value="";
+    //     var zh1=zhanghao1.value;
+    //     var mm1=mima1.value;
+    //     var mm2=mima2.value;
+    //     var data=getData();
+    //     if(reg.test(zh1)&&reg1.test(mm1)&&reg1.test(mm2)){
+    //         if(mm1==mm2){
+    //             data.push({czh:`${zh1}`,cmm:`${mm1}`});
+    //             alert("注册成功，请登录");
+    //             dengluz();
+    //         }else{
+    //             alert("两次输入密码不一致")
+    //         }
+
+    //     }else{
+    //         alert("请输入符合要求的数据");
+    //     }
+    //     setData(data);
+    // }
+    //     submit.onclick=function(){
+    //         var zh=zhanghao.value;
+    //         var mm=mima.value;
+    //         var data=getData();
+    //         if(reg.test(zh)&&reg1.test(mm)){
+    //             data.forEach(function(v,i){
+    //                 if(zh==v.czh&&mm==v.cmm){
+    //                     alert("登陆成功");
+    //                     submit.href="index.html";
+    //                 }else{
+    //                     alert("账号密码错误或该账号不存在");
+    //                 }
+    //             })
+    //         }else{
+    //             zhanghao.value="";
+    //             mima.value="";
+    //             alert("账号或密码有误");
+    //         }
+    //     }
+
+</script>
+</html>
